@@ -1,3 +1,7 @@
+# mininetflix
+
+> Educational project, original source article is here (https://scotch.io/tutorials/build-a-mini-netflix-with-react-in-10-minutes)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
