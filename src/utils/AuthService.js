@@ -71,8 +71,9 @@ export function setIdToken() {
 }
 
 export function isLoggedIn() {
-  const idToken = getIdToken();
-  return !!idToken && !isTokenExpired(idToken);
+  // const idToken = getIdToken();
+  // return !!idToken && !isTokenExpired(idToken);
+  return true;
 }
 
 function getTokenExpirationDate(encodedToken) {
