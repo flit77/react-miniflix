@@ -4,6 +4,7 @@ import Nav from './Nav';
 import { isLoggedIn } from '../utils/AuthService';
 import { CloudinaryContext, Transformation, Video } from 'cloudinary-react';
 import axios from 'axios';
+import { Share } from 'react-twitter-widgets';
 
 class Display extends Component {
   state = { videos: [] };
@@ -45,6 +46,9 @@ class Display extends Component {
                 <div>
                   {' '}Created at {data.created_at}{' '}
                 </div>
+                <Share
+                  url={`http://res.cloudinary.com/unicodeveloper/video/upload/${data.public_id}.mp4`}
+                />
               </div>
             )}
           </CloudinaryContext>
