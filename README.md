@@ -1,4 +1,4 @@
-# mininetflix
+# miniflix
 
 > Educational project, original source article is here (https://scotch.io/tutorials/build-a-mini-netflix-with-react-in-10-minutes)
 
